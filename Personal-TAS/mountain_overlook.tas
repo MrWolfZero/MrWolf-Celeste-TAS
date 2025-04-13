@@ -1,0 +1,349 @@
+RecordCount: 230
+console, load, Mountain Overlook/1-MountainOverlook
+   1
+
+#Start
+ 190
+
+#lvl_1
+   4,R,Z
+   1,R,J
+   7,R
+   1,R,J
+   6,R
+   5,R,X
+  66
+  11,U,C
+  40
+
+#lvl_2
+   2,R
+   1,R,K,G
+   1,R,J,G
+   7,R
+   4,R,Z
+   1,R,J
+   7,R
+   8,R,J
+  11,U,X
+  15,U,C
+  12
+  11,L,U,X
+  20,U,C
+  15,R,U,X
+   7
+   4,R,Z
+   6,R,J
+   6,L,J
+  30,L
+  11,L,D,X
+  11,L,C
+  15,L,U,X
+  27
+  57,D
+   4,R,D
+   4,R
+   1,R,D
+  27,R,Z
+   4,R,V
+   1,R,J
+   7
+   4,L,J
+  15,L,U,X
+  10,L
+   6
+  10,L,X
+   3,J
+   2,L,J
+   2,L
+  15,L,Z
+   4,L
+  77
+  10,R
+   5,L,Z
+   1,R,J
+   7,R
+   1
+   1,R,J
+   4,R,D,X
+   1,R,J
+   3,R
+  40
+
+#lvl_3
+   4,R
+  29,R,J
+  15,R,U,X
+   8,R
+   1,K
+  27,R,K
+   1,R,J
+  13,R
+   5,R,Z
+  10,R,J
+   8,R
+   2,R,K
+  24,R
+  49,R,D
+  40
+
+#lvl_4
+   2
+   2,L
+  78
+   1,R,J
+  10,R,D,X
+#-5f ultra sooner
+   8,R,J
+  22,R,D,X
+  65,R
+   1,R,D
+   1,R
+   3,R,D
+#-16f better jump after hyper, use upleft to break block (ties with updash)
+   4,R,Z
+   4,R,J
+  10,R
+   5,R,D
+   1,R
+   7,R,D,X
+   1,L,J
+   1
+  11,L
+  50,L,J
+  14,L,Z
+   5,L,J
+   1,L
+  30,L,J
+  17,L,U,X
+   1,R
+   3
+   8,R
+   4,K
+   6,J,G
+  38,D
+   2,L,D
+  14,L,Z
+   5,L,K
+   1,L
+  22,L,K
+#-7f use demo hyper
+  14,L,Z
+   1,L,J
+  14,L,D,X
+   1,L,J
+  14,L,D,X
+   1,L,J
+  40
+
+***S
+#lvl_5
+  13,L,X
+  21,L,C
+  15,L,D
+  10,D
+   2,L,D
+  12,L,Z
+  11,L,X
+  11,L,C
+  11,U,X
+   9,L,C
+  15,L,D,X
+  45
+  15,L,Z
+   8,L,D
+  16,D
+   5,L,X
+  12
+  20,L,Z
+   1,L
+  15,R,X
+  14,D
+  12,J
+  14,U,Z
+   1,J
+  34,R,J
+  11,L,K
+   8,L
+  12,L,U,X
+   5,L,C
+  93
+  15,R,Z
+  17,D
+  13,L,D
+  40
+
+#lvl_6
+   5,L,D
+  10,L,D,X
+   1,S,N
+   1,D,O
+  34
+   3,L,D,X
+   2,L,J
+  10,L,D,X
+   1,R,J
+   4,R
+  14,R,D,X
+   1,R,J
+  14,R,D,X
+   1,L,J
+  15,D,C
+   2,L,D
+   1,R,J
+   3,L,J
+   7,L,D,X
+   7,L
+   1,K
+  20,L
+  14,L,X
+  21,R,J
+   9,K,G
+   8,J,G
+  10,L,Z
+   5,R,J
+  15,R,D,X
+  14,R
+  17,L,D
+   9,L,J
+  11,L,D,X
+  22,R,J
+   5,R
+  15,R,D,X
+   1,R,K
+   6
+  40
+
+#lvl_7
+  10,L
+  18,R
+  15,U,X
+  26,D
+   8,L,D
+  14,R,D,X
+  62,R,J
+  15,R,U,X
+  17,D
+   7,R,D
+  14,R,D,X
+  50,R,J
+  15,R,U,X
+  36,R,D
+   5,R,X
+   7,R,J
+  40
+
+#lvl_8
+  11,R,J
+  14,U,X
+   1,L
+  12,K,G
+   7
+  70,U,G
+  12,K,G
+   7
+  15,J,G
+  12,K,G
+   7
+  41,U,G
+  12,K,G
+  15,J,G
+  12,K,G
+   1,J,G
+  12,K,G
+   2
+   5,L
+  14,L,Z
+  40
+
+#lvl_Cassette
+   2,L,J
+  10,L,X
+  10,L,D,C
+  11,D,X
+  14,L,U,C
+  10,L,X
+  10,L,C
+  10,U,X
+  15,L,U,Z
+  15,D,X
+   8,L,D
+  14,L,D,X
+   6,L,J
+  10,L
+  18,L,U,X
+ 257
+   1,O
+ 123
+   6,R,D,X
+  40
+
+#lvl_8
+   8,R,D,X
+   1,R,J
+   2,R
+  15,D,X
+  67,D
+  11,R,D
+   1,R,J
+   1,L,J
+  10,L,Z
+   1,R,J
+   4
+  14,R,D,X
+  37,R,J
+   7,D
+  15,R,X
+   5,J
+  16
+   6,J
+  15,R,J
+  15,R,X
+   1,J
+   6,L,J
+  14,L
+   5,J
+  10,L,J
+  12,L,Z
+  12,R,J
+  15,R,D,X
+   1,R,J
+  33
+  10,R
+  58,D
+  26,L,Z
+  22,L,D,X
+   1,L,J
+  14,L,D,X
+   1,L,J
+  14,L,D,X
+   3,L,J
+   8,L
+  14,L,D,X
+   3,R,J
+   7,D,X
+  40
+
+#lvl_9
+   1,R,D
+   1,S,N
+   1,D,O
+  34
+  26,R,D
+  32,R,Z
+   5,R,U,C
+ 144
+
+
+ChapterTime: 1:12.352(4256)
+#1:14.035(4355) 
+#1:13.933(4349)
+#1:12.573(4269)
+#1:12.437(4261)
+#1:12.420(4260)
+#1:12.352(4256)
+
+
+
+
+

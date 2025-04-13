@@ -1,0 +1,145 @@
+unsafe
+
+#StartFrom"CLIMB"Option
+   1,J
+  36
+Repeat 24
+   1,D
+   1
+endRepeat
+   1,J
+  15
+   1,D
+   1,J
+  50
+Repeat 4
+   1,L
+   1,D
+endRepeat
+Repeat 4
+   1,L
+   1
+endRepeat
+   1,L
+   1,J
+Repeat 4
+   1,U
+   1,R
+endRepeat
+Repeat 4
+   1
+   1,R
+endRepeat
+   1,J
+   1,L
+   1,D
+   1,L
+   1
+   1,L
+   1
+   1,L
+   1,J
+   1,L
+   1,D
+   1,L
+   1
+   1,L
+   1,J
+Repeat 3
+   1,L
+   1,D
+endRepeat
+   1,J
+   1,R
+   1,U
+   1,R
+Repeat 2
+   1,U
+   1
+endRepeat
+   1,U
+   1,J
+   1,L
+   1,U
+   1,L
+   1,J
+   1,R
+   1
+   1,R
+   1
+   1,R
+   1,J
+   1,O
+   1,R
+   1,J
+   1,D
+   1,R
+   1
+   1,R
+   1
+   1,R
+   1
+   1,R
+   1,J
+Repeat 3
+   1,L
+   1,D
+endRepeat
+Repeat 4
+   1
+   1,L
+endRepeat
+   1,J
+   1,D
+   1,R
+   1,J
+  50
+   1,D
+   1
+   1,D
+   1
+   1,D
+Repeat 3
+   1,R
+   1
+endRepeat
+   1,R
+   1,U
+   1
+   1,U
+   1
+   1,U
+   1
+   1,U
+   1,J
+
+Read, Pollen A-Side MinDash
+ 370
+   1,J
+ 570
+   1,R
+   1,J
+  46
+Read, Pollen B-Side MinDash
+ 370
+   1,J
+ 200
+   1,R
+   1,J
+  46
+Read, Pollen C-Side MinDash
+ 370
+   1,J
+ 200
+   1,C
+  23
+   1,N
+  34
+   1,R
+ 200
+   1,R
+  14
+   1,R
+  14
+   1,R
+ 250
