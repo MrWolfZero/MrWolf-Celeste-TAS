@@ -1,4 +1,4 @@
-RecordCount: 10377
+RecordCount: 10622
 console load BossZucchini/Pollen/Pollen
    1
 
@@ -14,29 +14,29 @@ console load BossZucchini/Pollen/Pollen
    2,R,D
    1,R,J
    1,R,K
-   3,R,J,G
-  10,R
-   3,R,K
-  21,R,D
+   1,R,J,G
+   1,R,K
+   1,R
+   5,R,J
+   2,R
+   1,R,K
+   1,D
+  18,R,D
    1,R,K
    1,R,J
-   1,R,K
+   1,R,K,G
    1,R,J
-   2,R,K
-  16,R
-   6,R,K
-   8,R
+  15,R
+   5,R,D,K
+   7,R
   40
 
 #lvl_a-01 (0D) (0)
-   1,R
-   1
+   2
    5,R
    1,R,K
-   8,R
-   1,R,K
-   1,R
-   1,R,J,G
+   5,R
+   3,R,J
    6,R,K,G
    1,R,J,G
    9,R
@@ -145,7 +145,7 @@ EndRepeat
   20,R,G
   40
 
-#lvl_a-02
+#lvl_a-02 (0D)
    3,R,D,G
   14,R,K,G
    1,R,D,K
@@ -235,7 +235,7 @@ EndRepeat
    8,L
   40
 
-#lvl_a-04 (3D)
+#lvl_a-04 (1D)
    3,L
    3
    1,L,K
@@ -505,21 +505,25 @@ EndRepeat
   12,R,K
   40
 
-
 #lvl_a-06 (0)(2D)
+   4
+  28,R
+   1,R,K
+   1,R,J,G
+   1,R,K,G
+   1,R
    3
-  29,R
+   7,R
    1,R,K
-   2,R,J,G
-  11,R
-   1,R,K
-  15,R
-  24,R,K
+  14,R
+  15,R,K
   13,U,X
   31,R,K,G
    1,L
-  12,R,K
-   7,R,D
+  13,R,K
+   4,R,D
+   1,D
+   1,R,D
   43,U,G
    1,L,K
   16,L,D
@@ -536,14 +540,10 @@ EndRepeat
    1,R,J,G
    1,R,K,G
    7,R
-   1,K
-   4,R
-   1
-   2,R
-   1
-   1,R
+   1,R,K
+  11,R
    8
-Repeat 3
+Repeat 2
    1,R,D
    1,D
 endRepeat
@@ -555,7 +555,9 @@ endRepeat
   11,L,G
    7,R,J,G
    8,R,G
-   7,R
+   5,R
+   1
+   1,R
   11,R,K,G
    4,R
    4,R,K
@@ -924,7 +926,7 @@ EndRepeat
    2,R,D,G
   40
 
-#lvl_b-00
+#lvl_b-00 (1D)
   25,R,D,G
    1,R,D,K
    8,R
@@ -956,7 +958,7 @@ EndRepeat
   12,R
   40
 
-#lvl_b-01
+#lvl_b-01 (0D)
    9,R,D
    7,R,K
   20,R
@@ -1108,14 +1110,14 @@ endRepeat
    5,G
   40
 
-#lvl_b-02 (0D)
+#lvl_b-02 (0D) (1)
   12,L,D,G
    2,L,G
    1,L,K,G
    7,L,G
   40
 
-#lvl_b-03 (0D)
+#lvl_b-03 (0D) (1)
   11,L,U,G
    9,L,D,G
    3,D,G
@@ -1346,7 +1348,7 @@ EndRepeat
   12,R
   40
 
-#lvl_b-casset (4D)
+#lvl_b-casset (3D)
 #jelly can be smuggled here but we havent been able to smuggle the 2 jellys past the last portal
    3,R
    1,R,K
@@ -1462,24 +1464,23 @@ endRepeat
   11,L,K
   40
 
-#lvl_b-05 (2D)
+#lvl_b-05 (1D)
    1,L
    6,L,K
   40,L,D
-  10
-   1,R
-  12
-   8,R,U,X
-  14,R,K,G
-   7,R
-   1,R,K
-  12,R
+  12,L
+   2
+   9,R,J
+   1,J
+   1,R,J
+  36,R,K,G
    1,G
   13,R,D
    8,D
   15,R,X
-  44,R
-  10,D
+   1
+  43,R
+   9,D
    4,K
    9,L,K
    1,R,K
@@ -1506,31 +1507,31 @@ endRepeat
    1,L,J
   13,L
   18,L,K
-   8,L,J,G
+   9,L,J,G
    1,L,K,G
    4,R,K
    1,K
    5,L,K
-   7,L
-   1,L,K
+   9,L
+   1,L,J
   14,L
    1,L,K
   18,L
    1,L,K
-   5,L
+   3,L
   40
 
 #lvl_b-heart (0)(0D)
-   9,L
+  11,L
    1,L,K
-  15,L
+  18,L
    1,L,K
-  17,L
-   1,L,K
-  24,L
-  57,L,K
-   2,L,D
-   9,L,J,G
+  14,L
+   1,L,J
+  25,L
+  52,L,K
+   4,L,D
+   6,L,J,G
    2,R,J
    1,R
    1
@@ -1611,22 +1612,24 @@ endRepeat
    1,D
    5,R
   14
-   5,U,X
-  21,K,G
+   9,U,X
+  15,K,G
    3,R,K,G
    4,L,K,G
    1,R,K,G
    1,L,K,G
    1,L,D
-   6
-  29,K,G
+   9
+  21,K,G
   11,R,K,G
   29,L,J,G
    1,K,G
   31,R,J,G
   22,L,U,G
    1,R
-  22,L
+  19,L
+   1,L,D
+   2,L
    1,K
    2,L,K
   77
@@ -1635,8 +1638,7 @@ endRepeat
   13,R
    1
    3,R
-   4,R,K
-   1,R
+   5,R,K
    1,R,J,G
    1,R,K,G
    1,R
@@ -1644,7 +1646,7 @@ endRepeat
   19,R,D
   40
 
-#lvl_b-heart (1) (1D)
+#lvl_b-heart (1D) (1)
   37,R,D
 Repeat 5
    1,R,K
@@ -1666,4 +1668,4 @@ endRepeat
   59
    1,X
 
-ChapterTime: 3:50.945(13585)
+ChapterTime: 3:50.384(13552)
