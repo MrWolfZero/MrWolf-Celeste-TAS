@@ -1,5 +1,5 @@
-RecordCount: 4543
 console hard BossZucchini/Pollen/Pollen
+RecordCount: 7370
    1
 
 #Start
@@ -55,7 +55,7 @@ endRepeat
    1,R
   40
 
-#lvl_a-02 (2D)
+#lvl_a-02 (1D)
   12,R
    1
    2,R,K
@@ -74,108 +74,122 @@ endRepeat
    5,J,G
    6,R,J
    3,J
-  11,K,G
-   2,R,K
-  15,U,X
-  13,R
-   1
-  35,R,U,G
-   1,L,K
-  16,R,K
-   7,R,D
-  10,L,D
-   4,L
-   8,L,D
-   4,D
-   3,L
-   1,L,D
-   1,L
-   7,K
-   1,L
-   6,R
-   1,L
-   1,R
-  10,R,K
-  30,R
-   1,R,K
-  29,R,D
-   5,R
-  15,R,D
-   8,D
-   4
-   1,R
-   2,L
-   4,J,G
-   5,R,J
-   2,J
-   6,R,D,X
-   7,R,J
-   6,R
-  15,R,J
-   1,R
-   4
-   1,R,K,G
-   3,L,K
-   1,K
-   1,L,K
-   1,R,J,G
-   1,R,K,G
-   1,R,J,G
-   9,R
-   1,R,K
-   1
-  13,R
+#-1x, +81f throw jelly above barrier, use to skip hyper at the end. Carry it to the next room.
+  14,K,G
    3,R,K
-   2,R
-   1,R,J,G
-   1,R,K,G
-   9,R
+   1,K
+   2,R,K
+  16,R,U,C
+  21,L,G
+  41,R
+   1,K,G
+   1,L,K
    1,R,K
-  11,R
+  10,R,J,G
+   4,R
+   1,J,G
+   6,R,J
+   1,L,J
+   7
+  31,D,G
+  18,R,D,G
+  31,L,D,G
+  14,D,G
+   1,R,K,G
+  45,R,D,G
+   8,D,G
+   5,R,D,G
+  67,R,G
+  40,R,U,G
+   4,R,D,G
+   4,R,K,G
+   5,R,G
+   1,R,K,G
+  15,R,U,G
+  23,R,K,G
   40
 
-#lvl_a-03 (2D)
-   3,R
-  10,R,K
-   6,R,J,G
-   5,R,Z
-   1,R,J
-   6,R
-  21,R,D,K
-  20,R,G
-  37,R,K,G
-  11,L,K,G
-  20,R,J,G
-  10,R,G
-  68,R,U,J,G
-   1,D,J
+#lvl_a-03 (0D)
+#-2x, +458f use the smuggled jelly to ladder to the end.
+  19,R,U,K,G
+   1,R,J,G
   14,R
-   7,U,X
-   5,L,J
-   4,J
-  23,J,G
-   4,L,J,G
+   1,R,K
+  20,R
+  10,R,K
+  17,R
+  20,R,J,G
+  19,L,D,G
+  12,R,D,G
+   2,R
+  33,R,D,G
+   1,K,G
+   1,G
+  28,R,D,G
+   7,R,K
+  20,R,G
+   1,G
+   1,D
+  21,G
+   1,D
+  21,L,G
+   1,L,D
+  21,L,G
+   1,R,K
+  27,R,K,G
    1,R
-  17,R,J
-  27,R,J,G
-  12,R,G
-   1,R,D,G
+  35,R,D,G
+   5,D,G
+   3,R,K
+   6,R
+   1,R,K
+  25,R,K,G
+   4,K,G
+   1,D,K
+  23,G
+   3,R,G
+   1,R,D
+  20,R,G
+   1,G
+   1,D
+  13,G
+   3,R,G
+   1,G
+   1,R,G
+   3,G
+   1,D
+  14,G
+   7,R,G
+   1,D
+  14,G
+   4,R,D
+   3,G
+   1,R,D
+  14,R
+   1,J,G
+   2,L,J
+  10,L,K
+   5,R
+Repeat, 7
+  21,G
+   1,D
+EndRepeat
+Repeat, 2
+  21,R,G
+   1,R,D
+EndRepeat
+  26,R,K,G
+   3,R,G
+   2,R,D,G
    1,L
    9,R,D
-   5,R,D,K
+   9,R,D,K
    7,R
-   5,R,K
-   5,R
-   1,K
-   4,R
-   1,K
-   7,R,D
-   2,R
-   1
-   1,R
+   9,R,K
+  23,R,D
    1,R,J,G
   39,R,K,G
-   1,R,D
+   1,R
    1
    1,R,J,G
    1,R,K,G
@@ -196,184 +210,504 @@ endRepeat
    1,R,K
   13,R,D
    1,G
-  63,R,U,K,G
-   8,R
-  15,R,U,X
-  15,R,K,G
-  25,L,U,K,G
-   1,D
+#-1x, +1573f get the jelly with a dash, dupe it, then jelly climb
+  23,R,K,G
+   1,R
+   5,L,U,X
+  26,R,G
+   1,L
+   4,R
+   1,G
+   1,L,K
+   6,L
+   1,L,J,G
+   1,L,K,G
+  13,L
+  13,L,G
+   1,L,K,G
+  11,L,G
    2,G
-   7,J,G
+  40
+
+#lvlp_a-03
+  10,R,D,G
+   1,R,K,G
+   7,R,G
+  40
+
+#lvl_a-04
+  15,R,G
+   1,K,G
+   3,G
+  29,R,D,G
+   2,L,D,G
+  17,D,G
+   9,L,D,G
+   9,D,G
+  18,R,K
+  21,G
+   1,D
+  21,L,G
+   1,L,D
+  21,L,G
+Repeat, 5
+   1,D
+  21,G
+EndRepeat
+   1,R
+Repeat, 2
+  27,L
+   1,K
+   7,R
+   1,J
+EndRepeat
+  44,L
+   1,G
+Repeat, 20
+   1,G
+   1
+EndRepeat
+   3,J,G
    1,L,J
    1,J
    1,L,J
    1,R,J
    1,L,J
-  21,L,K,G
-  11,L,G
-   1,G
-   1,L,G
+   7,L,K,G
+   7,L,K
+   7
+  27,G
    1,R
-   4,R,K
-   7,R
-   9,U,X
-  33,R,G
-  15,L,G
-  16,L,K,G
-   4,L,D
-   7,R,D
-  10,U,X
-  27,J,G
-   6,L,J,G
-   1,J,G
-  30,L,K,G
-  14,L
-  11,U,X
-  94,R,U,K,G
-   1,L
-  20,R
-   1,R,K
-   1,R,J
-   1,R,K
-   1,R,J
-   2,J
-   3,R,J
-   2,R
-   1,R,J,G
-   3
-  11,R,D
-   5,D
-   8,R,D
-Repeat 4
-   1,R,J
-   1,R,K
-endRepeat
-  11,R
-  40
-
-#lvl_a-05 (6D)
-   4,R
-  23,R,K
-  15,R,U,X
-  11,R
-  14,R,Z
-   2,R,J
-   8
-  11,L
-  10,D
-  17,D,G
-  12,R,D,G
-   3,D,G
-   1,R,D,G
-   1,R,D
-  19,R,Z
-  13,L,K
-   9,J,G
-  11,R,D
-   8,D
-   5,R,D
-   1,G
-  14
-  41,G
-   1,D,G
-   1,G
-   5,D,G
-  12,L
-  20,L,G
-   8,D,G
-   8,D
-   2,L,D
-  11,U,X
-  16,R,G
-   6,G
-  12,D
-   2,R
-   7,U,X
-  21,R,G
-   4,G
-  42,L,U,G
-  10,L,D,G
-  21,D,G
-  36,L,D,G
-  15,D,G
-  10,L,D,G
-  14,L,U,G
-   1,R
-   2,L
-  15,U,X
-   5
-   1,R
-   1,K,G
-   1,R,K
-   1,K
-   1,R,K
-   5,K
-   1,R,K
-   1,L,K
-   1,R,K
-  13,R,J,G
-   7,R,K,G
-  10,R,J,G
-   2,R,J
-   2,J
-  13,K,G
-   2,R,K
-   1,K
-  18,J
-  40
-
-#lvl_b-00b (3D)
-  11,R
-   1,J,G
-   3,R,J
-   5,J
-   1,R,J
-   1,L,J
-   1,R,J
-  13,R,K,G
-   1,J,G
-   3,R,J
-   5,J
-   1,R,J
-   1,L,J
-   1,R,J
-   1,R,K,G
-   4,K
-   2,L,K
-   1
-   4,K
-   2,R
-   4,R,K
-   1,R,J,G
-   7,R,K,G
-   2,L,K
-   1,R,J,G
-   1,R,K,G
-  10,R
-   1,R,K
-  31,R
-  20,R,K
-  40,R,D,G
-  15,D,G
-   8,R,G
-  14,D
-   7,U,X
-  45,G
-  39,L,U,G
-   5,R,U,G
-   5,R,K,G
-  10,R,G
-   1,R
-  15,R,U,X
-  15,R,K,G
-  18,L,K,G
+  24,R,U,G
+   3,G
    1,D
-  15,L,Z
-  12,L
+  16,G
+   1,G
+   1,G
+   1,G
+   6,G
+   1,R,D
+  13,G
+   8,R,G
+   1,D
+  13,G
+   4,R,G
+   1,G
+   1,R,G
+   2,G
+   1,D
+  14,G
+   3,R,G
+   1,G
+   2,R,G
+   1,G
+   1,D
+  14,G
+   7,R,G
+   1,R,D
+  19,G
+   2,R,G
+   1,D
+   6,U,X
+  25,R,G
+   1,R,D
+  19,L,D
+  13,R,D
+   3,R
+   5,U,X
+Repeat, 2
+  21,R,G
+   1,D
+EndRepeat
+  15,R,G
+   5,G
+   1,R,G
+   1,D
+Repeat, 17
+  21,G
+   1,D
+EndRepeat
+  21,G
+   1,L,K
+  25,L,K,G
+   1,D
+  21,G
+   1,D
+  21,L,G
+   1,L
+  25,D,G
+  18,L,U,G
+   6,L
+  24,R,G
+   1,R,D
+Repeat, 2
+  21,R,G
+   1,R,D
+EndRepeat
+  18,G
+   2,R,G
+   1,G
+   1,D
+  13,G
+   3,R,G
+   1,G
+   3,R,G
+   1,G
+   1,D
+  13,G
+   1,R,G
+   1,G
+   3,R,G
+   3,G
+   1,D
+  13,G
+   1,R,G
+   1,G
+   6,R,G
+   1,D
+  15,G
+   2,R,G
+   1,G
+   1,R,G
+   2,G
+   1,D
+  13,G
+   7,R,G
+   1,G
+   1,D
+  21,G
+   3,R,D
+  16,G
+   4,R,G
+   1,G
+   1,D
+  13,G
+   7,R,G
+   1,G
+   1,D
+  15,G
+   1,R,G
+   1,G
+   2,R,G
+   2,G
+   1,D
+  14,G
+   7,R,G
+   1,R,D
+  18,G
+   2,R,G
+   1,G
+   1,D
+  13,G
+   7,R,G
+   1,G
+   1,D
+  15,G
+   1,R,G
+   1,G
+   2,R,G
+   2,G
+   1,D
+  14,G
+   7,R,G
+   1,R,D
+  18,G
+   2,R,G
+   1,G
+   1,D
+  13,G
+   4,R,G
+   4,G
+   1,K,G
+   1,D
+  21,R,G
+   1,R,D
+  21,G
+   1,R,D
+  15,G
+   6,R,G
+   1,R,D
+  18,R,D,G
+  28,L,D,G
+  21,R,D,G
+Repeat, 4
+   1,R,K,G
+   1,R,J,G
+EndRepeat
+  10,R,K,G
+   1,R,G
+  40
+
+#lvl_a-05
+#-5x, +1223f using the jelly from the previous room, get the two coins  while using jelly ladder
+  22,R,K,G
+   7,R
+  14,U,X
+  21,R,G
+  11
+  18,R,D
+   1,R,K,G
+   6,R,J,G
+  24,R
+  10,L
+   7,D
+   5,L,D
+  22,D,G
+  25,L,D,G
+   2,D,G
+   2,L,G
+   1,L,D
+  11,L
+   3,R
+   4,R,J,G
+   7,K
+   5
+  21,R,G
+   1,R,D
+  14,G
+   4,R,G
+   3,G
+   1,D
+  13,G
+   8,R,G
+   1,R,D
+  19,G
+   1,R,G
+   1,G
+   1,D
+  13,G
+   7,R,G
+   1,G
+   1,D
+  17,G
+   4,R,G
+   1,D
+Repeat, 2
+  21,G
+   1,D
+EndRepeat
+  16,L,G
+   5,R,G
+   1,R
+  39,L,G
+   9,L,D
+   8,K,G
+  13,J,G
+   6,R,J,G
+   1,L,J,G
+  89,U,J,G
+   1,L,U,J,G
+   1,L,D
+   1,J,G
+  10,L,J
+   1,R,J
+  40,L,J,G
+  98,U,G
+   1,L,U,G
+   1,L,D
+   1,J,G
+  10,L,J
+   1,R,J
+  39,L,J,G
+  14,R,U,G
+  10,U,G
+   3,R,D,G
+   9,D,G
+  10,L,D,G
+   1,L,D
+   1,J,G
+  10,L,J
+   1,R,J
+   5,L,J
+  21,J,G
+   1,D,J
+  21,R,G
+   1,R,D
+  14,G
+   3,R,G
+   4,G
+   1,D
+  14,G
+   7,R,G
+   3,R
+  65,R,G
+   1,R
+  15,R,D,G
+  28,L,D,G
+   1,L,K,G
+   1,L,G
+  54,L,U,K,G
+  21,D,G
+   1,D
+  21,L,D,G
+   1,L,D
+  21,L,D,G
+   1,D
+  17,G
+   2,L,G
+   2,G
+   1,D
+  13,G
+   4,L,G
+   1,G
+   3,L,G
+   1,L,D
+  18,G
+   1,L,G
+   2,G
+   1,D
+  38,D,G
+   1,R,D,G
+   1,D
+  10,L
+   2
+   4,R,J,G
+   1,K
+  12,J
+  21,L,G
+   1,D
+  15,L,G
+   6,G
+   1,D
+Repeat, 9
+  21,G
+   1,D
+EndRepeat
+  21,L,G
+   1,D
+  21,L,G
+   1,L
+  43,R,G
+  23,L,G
+  24,L,D,G
+   1,L
+   5,L,D
+   1,R,D
+   3,R
+   2,R,D
+   1,R
+  11,R,K,G
+  10
+  20,L,G
+  19,R,G
+   5,R
+   5,R,K,G
+   2,R
+  20,R,J,G
+   8,R,G
+   1,R
+   5,R,K,G
+   7,K
+   1,R,K
+   9,J
+  14,J,G
+   5,R,J,G
+   1,J,G
+   1,R,J,G
+  40
+
+#lvl_b-00b (0)
+#-3x, +348f jelly ladder to throw the jelly to the gap below the barrier to get the coin, then scale the wall with one jelly
+  11,R,G
+  11,L,K,G
+  11,R,J,G
+  11,L,K,G
+   7,R,J,G
+   7,L,K,G
+   2,R,J,G
+   5,R,J
+   4,R
+   6,K,G
+   1,R,J,G
+   1,R,J
+   2,R
+  41,R,D,G
+  16,R,K,G
+   5,K,G
+   1,D
+  15,G
+   4,R,G
+   2,G
+   1,D
+  14,G
+   6,R,G
+   1,G
+   1,R,D
+  18,G
+   1,R,G
+   1,G
+   1,R,G
+   1,D
+  13,G
+   4,R,G
+   1,G
+   2,R,G
+   1,G
+   1,D
+  14,G
+   4,R,G
+   3,G
+   1,D
+  17,G
+   4,R,G
+   1,D
+   2,R,D
+  16,G
+   5,R,G
+   1,D
+  13,G
+   1,R,G
+   1,G
+   3,R,G
+   3,G
+   1,D
+  14,G
+   6,R,G
+   1,G
+   1,D
+  14,G
+   7,R,G
+   1,R
+  14,R,G
+   1,G
+   7,R,G
+   2,R
+   9,R,J,G
+   6,R
+   1,R,J
+  21,G
+   1,D
+  21,G
+   3,R
+  33,R,G
+  11,R,D,G
+   2,L,K,G
+   9,L,G
+  12,L,J,G
+  87,L,U,G
+   4,D
+   6,K,G
+   1,L,K
+   1,K
+  35,L,G
+  13,K,G
+   1,R
+   1,J
+   8,L,J
+   7,L
+   1,L,K
+   1
+   7,L
+   2
+   3,L
+   1
+   4,L,K
+   1,L
+   1,L,J,G
+   1,L,K,G
+   9,L
    1,L,K
   18,L
-   1,L,K
-  14,L
    1,L,K
   18,L
    1,L,K
@@ -383,79 +717,166 @@ endRepeat
   40
 
 #lvl_b-01 (5D)
+#-6f better cbs
   10,L
    1,L,K
-   7
-   7,L
+   8
+   6,L
    2,L,K
    2,L
-   1,L,J,G
-  13,L
-   6,L,J
-  19,L
-   6
+   2,L,J,G
+   5,L
+   2,L,J
+   8,L
+   3,L,J
+  18,L
+   1,L,D
+   2,L
+   2,L,D
    1,G
-   1,K,G
-   1,L,K
-  15,L,J,G
-   7,J
-  15,L,U,X
-   1,K
-   8,L,K
+   2,L,J,G
+  20,L,K,G
+  23,L,U,X
    1,L,J,G
    2,R,J
    2,L,K,G
-  19,L
+  18,L
    5,L,K
    1,L
   16,L,K
-  23,L,U,K,G
-  21,R,D,G
-   3,G
-  17,L,G
-   1,D,G
-   9,L,D,G
-   1,R
-   8,L
-  23,L,K
-  14,L,X
-   3,L,J
-   4,R,J
-  15,U,C
-  10,R
-   5,R,K,G
-  23,L
-   4,L,K,G
-   3,R,K
-   1,L,J,G
+#-3x, +812f dupe the jelly to skip the first two dashes using the portal, then updemo to a small gap at the end then spikeclimb
+  23,L,K,G
+   3,R,D,G
+   1,L,D
+   2,R,D
+  10,R,J,G
+   7,R
+  52,R,U,G
+  12,R,D,G
+  51,R,G
+   1,R,K,G
+  33,R,G
+   7,L,D,G
+   5,L,G
+  40
+
+#lvl_b-00b (1)
+   1,L,K,G
+  40
+
+#lvl_b-01
+   1,L,K,G
+   9,L,G
    5,L,K,G
-   4,K
-   5
-  15,L,Z
-  10,L
-  15,L,U,Z
-   9,L
-  24,R
-   3
-   7,R,K,G
+  24,L,G
+   9,L,D,G
+  30,L,K,G
+  22,R,D,G
+   8,R,U,G
+   1,U,G
+   1,R,U,G
+   1,U,G
+   1,L
+   8,K
    3,L,K
+   5,L
+   1
+  18,G
+   3,L,G
+   1,D
+   1,J
+  43,L,J,G
+  14,L,G
+   4,L,K,G
+   8,K,G
+   2,D
+Repeat, 3
+  21,G
+   1,D
+EndRepeat
+  21,G
+   1,L
+  23,G
+   1,D
+  10,L
+   9,R
+   1,G
+   1,J,G
+   3
+   7,R
+  14,R,J,G
+  15,L,G
+   3,G
+Repeat, 4
+   1,D
+  21,G
+EndRepeat
+   1,D
+  21,L,G
+   1,D
+  21,L,G
+   1,L
+  37,L,G
+   8,L,D,G
+  10,L,G
+   1,L,J,G
+  11,J,G
+   1,D
+  21,R,G
+   1,R,D
+  21,R,G
+   1,R,D
+  21,R,G
+   1,L
+  18,R,G
+   2,K,G
+  12,L,G
+  11,L
+   1,G
+  16,L
+   1,G
+   1,K,G
+   1,L,J,G
+   2,R,J
+   7,L,J
+   3,L
+   1
+   1
+   1,L
+  18,U,Z
+   9,L
+   4,L,J
+   2,J
+   2,R,K,G
+   1,L,K
+   1,R,K
+   1,L,K
+   1,R,K
+   1,L,K
+   2,L,K
+   1,R,K
+   1,J,G
+   3,R,J
+   2,J
+   1,R,J
+   1,L,J
+   1,R,J
+  13,R,K,G
    1,R,J,G
    1,R,K,G
-  11,R,J,G
-  19,R,D
-   1,R,K
-  13,R
+   2,K
    4,R,K
+  18,R
+   1,R,K
+  14,R
+  12,R,K
+  12,L,J
    3,K
-   4,R,J,G
-  12,L,K
-   4,R,J
-   3,L,K
-Repeat 3
-   2,R,J
-   2,L,K
-endRepeat
-   1,R,J
+Repeat, 3
+   2,J
+   2,K
+EndRepeat
+   4,J
   40
 
 #lvl_b-02 (1D)
@@ -471,52 +892,177 @@ endRepeat
   12,R,K
    8,J,G
    1,L,J
-  12,L,K
-  12,L,J,G
-  11,L,K,G
-   2,R,K
+***S
+#-37f faster climb and cbs
+  10,K
+   3,L,K
+   1,J,G
+   2,L,J
+   4,J
+   2,L,J
+   1,J
+   1,R,J
+   1,L,J
+  13,L,K,G
+   1,L,J,G
+   1,L,K,G
+  11,L
+   4,L,K
+   1,L,J
+   4,L,K
+   1,L
+   5,L,K
+  18,L
+   6,R,D
+  34,D
+  23,L,D
+   6,L
+  15,L,Z
+  16,L
+  10,L,D
+   1,D
+   7,L,D
+   1,L,K,G
+   1,L,J,G
+   2
+   3,L
+   1
    1,L,J,G
    2,L,K,G
-  11,L
+  18,L
    1,L,K
-  13,L
-   1,L,K
-  14,L
-   1,L,K
-  27,L,D
-  35,R,D
-  12,D
-  15,L
-  15,L,Z
-  22,L,D
-  10,L
+   2,L
+   1,L,J,G
    1,L,K,G
-   2,L,J,G
-   7,L
-Repeat 4
-   1,L,K
+  13,L
+   2,L,J
+   8,L
+   1,L,J
   14,L
-endRepeat
    1,L,K
    8,L
-   1,L,K
-  14,L
-   1,L,K
-   9,L
   40
 
+***S
 #lvl_b-03 (3D)
-   9,L
+  10,L
    1,L,K
   14,L
    1,L,K
-  18,L
-   5,L,D
-   8,L,K
-   1,L,J,G
+  23,L,D
+   7,L,K
+   2,L,J,G
+  12,L
+***S
+   2,L
+   7,L,K
+***
+  15,L
+***
+   3,J,G
+   1,R,J
+   1,R
+  43,R,D,G
+   6,D,G
+***
+   6,R,K,G
+  15,R,G
+   2,R,K,G
+***
+  21,R,G
+   6,G
+  40
+
+***
+#lvl_b-02
+   1,L,K,G
+   8,L,G
+  40
+
+***
+#lvl_b-03
+  24,L,D,G
+   7,L,K,G
+   5,L,G
+   4,L,K,G
+  27,L,D,G
+   1,L,G
+   1,L,D,G
+   5,L,K,G
+   3,L,K
    5,L
-   1,L,J
-   8,L
+   2,L,K
+  10,L
+   1,G
+   1,K,G
+   3,L
+   8
+***
+   1,R
+  16,R,G
+  25,G
+   7,L,D,G
+  11,L,K,G
+***
+   9,L,G
+  11,L,U,K,G
+***
+  10,L,D,G
+  58,G
+***
+   3,L,G
+   2,K,G
+   1,L,K,G
+   1,K,G
+***
+   6,L,K,G
+***
+   1,L,D
+  15,G
+   5,L,G
+   1,G
+   1,L,D
+  16,G
+   1,L,G
+   4,G
+   1,D
+  13,G
+   8,L,G
+   1,D
+  14,G
+   1,L,G
+   1,G
+   2,L,G
+   3,G
+   1,D
+  14,G
+   6,L,G
+   1,G
+   1,D
+  13,G
+   4,L,G
+   4,G
+   1,D
+  13,G
+   6,L,G
+   2,G
+***
+   1,L,D
+  13,G
+   3,L,G
+   1,G
+  40,L,K
+   1,L,G
+   3,G
+   1,D
+
+
+
+
+#3x
+#2:36.111(9183)
+   1
+   1,L
   21,L,K
    3,K
   28,R,D,G
@@ -533,10 +1079,12 @@ endRepeat
    9
    6,L
   14,R,D,X
-   2,R,J
-  15,L,J
-   8,L
-   4
+   1,R,J
+  13,L,J
+   3,L
+   1,L,J
+   3,L
+   7
    5,U,X
   37,L,K,G
    1,R
@@ -549,6 +1097,7 @@ endRepeat
   12,J
   12,K
    2,J
+-
   40
 
 #lvl_b-04 (3D)
@@ -884,4 +1433,5 @@ endRepeat
   59
    1,X
 
-ChapterTime: 2:08.503(7559)
+ChapterTime: 2:17.666(8098)
+#2:08.503(7559)
