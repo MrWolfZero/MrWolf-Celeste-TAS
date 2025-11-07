@@ -1,5 +1,5 @@
 console hard BossZucchini/Pollen/Pollen
-RecordCount: 7370
+RecordCount: 7377
    1
 
 #Start
@@ -1051,7 +1051,13 @@ EndRepeat
   13,G
    3,L,G
    1,G
-  40,L,K
+***
+  18,L,K,G
+   1,R
+***
+   6,L
+***
+  50
    1,L,G
    3,G
    1,D
