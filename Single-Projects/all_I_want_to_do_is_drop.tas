@@ -1,5 +1,5 @@
 RecordCount: 243
-console, load, Riki/4R/Termination of Ridge
+console load "Riki/4R/Termination of Ridge"
    1
 
 #Start
@@ -81,7 +81,7 @@ console, load, Riki/4R/Termination of Ridge
    1,R
    5,R,K
   31,R,D
-***s
+***S
    4,R,Z
    1,R,J
    6,R
