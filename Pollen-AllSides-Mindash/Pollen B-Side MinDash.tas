@@ -2,7 +2,6 @@ console hard BossZucchini/Pollen/Pollen
 RecordCount: 8549
    1
 
-# add in screen text + ghost that appear and dissapear on small movement improv
 #Start
  190
 
@@ -75,7 +74,6 @@ endRepeat
    5,J,G
    6,R,J
    3,J
-#-1x, +81f throw jelly above barrier, use to skip hyper at the end. Carry it to the next room.
   14,K,G
    3,R,K
    1,K
@@ -110,8 +108,7 @@ endRepeat
   23,R,K,G
   40
 
-#lvl_a-03 (0D)
-#-2x, +458f use the smuggled jelly to ladder to the end.
+#lvl_a-03 (0) (0D) 
   19,R,U,K,G
    1,R,J,G
   14,R
@@ -202,7 +199,7 @@ EndRepeat
    1,R,K
   40
 
-#lvl_a-04 (4D)
+#lvl_a-04 (0) (1D)
   14,R
    1,R,K
   14,R
@@ -211,7 +208,6 @@ EndRepeat
    1,R,K
   13,R,D
    1,G
-#-1x, +1573f get the jelly with a dash, dupe it, then jelly climb
   23,R,K,G
    1,R
    5,L,U,X
@@ -230,13 +226,13 @@ EndRepeat
    2,G
   40
 
-#lvlp_a-03
+#lvl_a-03 (1) (0D)
   10,R,D,G
    1,R,K,G
    7,R,G
   40
 
-#lvl_a-04
+#lvl_a-04  (1) (2D)
   15,R,G
    1,K,G
    3,G
@@ -435,8 +431,7 @@ EndRepeat
    1,R,G
   40
 
-#lvl_a-05
-#-5x, +1223f using the jelly from the previous room, get the two coins  while using jelly ladder
+#lvl_a-05 (1D)
   22,R,K,G
    7,R
   14,U,X
@@ -603,8 +598,7 @@ EndRepeat
    1,R,J,G
   40
 
-#lvl_b-00b (0D)
-#-3x, +348f jelly ladder to throw the jelly to the gap below the barrier to get the coin, then scale the wall with one jelly
+#lvl_b-00b (0) (0D) 
   11,R,G
   11,L,K,G
   11,R,J,G
@@ -713,8 +707,7 @@ EndRepeat
    4,L
   40
 
-#lvl_b-01 (5D)
-#-6f better cbs
+#lvl_b-01 (0) (1D)
   10,L
    1,L,K
    8
@@ -741,7 +734,6 @@ EndRepeat
    5,L,K
    1,L
   16,L,K
-#-3x, +812f dupe the jelly to skip the first two dashes using the portal, then updemo to a small gap at the end then spikeclimb
   23,L,K,G
    3,R,D,G
    1,L,D
@@ -757,11 +749,11 @@ EndRepeat
    5,L,G
   40
 
-#lvl_b-00b
+#lvl_b-00b (1) (0D)
    1,L,K,G
   40
 
-#lvl_b-01
+#lvl_b-01 (1) (1D)
    1,L,K,G
    9,L,G
    5,L,K,G
@@ -887,7 +879,6 @@ EndRepeat
   12,R,K
    8,J,G
    1,L,J
-#-37f faster climb and cbs
   10,K
    3,L,K
    1,J,G
@@ -937,8 +928,7 @@ EndRepeat
    8,L
   40
 
-#lvl_b-03 (0D)
-#-2x, +435f you know the deal, dupe jelly and jelly climb
+#lvl_b-03 (0) (0D)
   10,L
    1,L,K
   14,L
@@ -961,12 +951,12 @@ EndRepeat
    6,G
   40
 
-#lvl_b-02 (0D)
+#lvl_b-02 (1) (0D)
    1,L,K,G
    8,L,G
   40
 
-#lvl_b-03 (1D)
+#lvl_b-03 (1) (1D)
   24,L,D,G
    7,L,K,G
    5,L,G
@@ -1048,7 +1038,7 @@ EndRepeat
    7,R,K
   40
 
-#lvl_b-04 (3D)
+#lvl_b-04 (0) (3D)
   11,R
    8,J,G
    4,L,J
@@ -1063,7 +1053,6 @@ EndRepeat
    1,R,J,G
    1,R,K,G
    9,R
-#-30f back throw the jelly before going further up instead of slowly falling
    1,R,K
   14,R
    1,R,K
@@ -1109,13 +1098,12 @@ EndRepeat
    1,R,K
   40
 
-#lvl_b-05 (4D)
+#lvl_b-05 (0) (1D)
   23,R,D
    1,R,K
   14,R
    3,R,K
    4,K
-#-9f -1x, do a neutral of the lower pillar after the portal and hyper bhop sooner
   12,L,J
   11,R
    7,L
@@ -1127,7 +1115,6 @@ EndRepeat
    1,J
   26,R,J
    1,G
-#-2x, +798f grounded wallboost to reach the jelly, then dupe it -> Hyper bhop to skip the bottom dash, then throw a jelly above the barrier to skip the last two dashes
    4,K,G
    1,R,K
    6,R
@@ -1159,12 +1146,12 @@ EndRepeat
    6,R,G
   40
 
-#lvl_b-04
+#lvl_b-04 (1) (0D)
    1,R,K,G
    1,R,G
   40
 
-#lvl_b-05
+#lvl_b-05 (1) (1D)
   10,R,G
   14,R,U,K,G
    7,U,K,G
@@ -1234,7 +1221,6 @@ EndRepeat
   40
 
 #lvl_b-06
-#-1x, +145f stall activating the right pillar, then use the springs to get to the red portal.
    9,R
    5,K
   12,L,J,G
@@ -1280,7 +1266,7 @@ EndRepeat
    4,R
   40
 
-#lvl_b-cassette
+#lvl_b-cassette (4D)
   10,R
    4,R,K
    4
@@ -1362,7 +1348,6 @@ EndRepeat
   37,R,J,G
    7,K,G
   20,L
-#-1x, +4f cassete super jump then up dash
   21,R,K
   19,R
    1,K
@@ -1402,5 +1387,3 @@ EndRepeat
    1,X
 
 ChapterTime: 3:46.508(13324)
-#2:08.503(7559)
-#3:30.919(12407)
